@@ -1,0 +1,125 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+**/.xcode.env.local
+ios/Yemek Tarifleri AI.xcworkspace/
+ios/Yemek Tarifleri AI.xcodeproj/project.xcworkspace/
+ios/*.xcworkspace/
+ios/*.xcodeproj/project.xcworkspace/
+ios/build/
+ios/main.jsbundle
+ios/Pods/
+ios/Podfile.lock
+ios/*.xcuserstate
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+.cxx/
+*.keystore
+!debug.keystore
+.kotlin/
+android/app/release/
+android/app/debug/
+android/app/build/
+android/build/
+android/*.keystore
+android/local.properties
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+
+# Bundle artifact
+*.jsbundle
+
+# Ruby / CocoaPods
+**/Pods/
+/vendor/bundle/
+
+# Temporary files created by Metro to check the health of the file watcher
+.metro-health-check*
+
+# testing
+/coverage
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+code-push-server
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+.ethern/
+.cursor/
+
+# iOS specific
+ios/build/
+ios/Pods/
+ios/*.xcodeproj/*
+!ios/*.xcodeproj/project.pbxproj
+!ios/*.xcodeproj/xcshareddata/
+!ios/*.xcworkspace/contents.xcworkspacedata
+ios/*.mobileprovision
+ios/Certificates/
+ios/*profile
+ios/*.env
+ios/*.env.*
+ios/yemektarifleri/GoogleService-Info.plist
+ios/yemektarifleri/Info.plist
+ios/export_options.plist
+
+# Sensitive information 
+*/ApiKeys.swift
+*/Environment.swift
+*/Config.swift
+.env
+.env.*
+
+# Platform folders (security)
+/ios/
+/android/
